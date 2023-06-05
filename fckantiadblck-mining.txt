@@ -1,5 +1,4 @@
-[Adblock Plus 3.1]
-! Title: Fuck Fuckadblock: Mining for Adblock Plus
+! Title: Fuck Fuckadblock: Mining
 ! Description: Filters for blocking browser-based miners
 ! Author: Bogachenko Vyacheslav
 ! Expires: 3 days
@@ -15,18 +14,28 @@
 ||altcoinpool.ru^
 ||aminingpool.com^
 ||anomp.cc^
+||cryptopools.pl^
 ||antpool.com^
 ||argoneum.net^
+||tdcoincore.org^
 ||atomminer.com^
 ||aussie-pools.com^
+||mail.ghmproperties.com^
+||mail.itseasy.com^
+||mail.shaferglazer.com^
+||mail.techniservinc.com^
 ||bitaps.com^
 ||bitcoinnova.org^
 ||blockwarepool.com^
 ||bmpool.org^
+||my2coins.com^
 ||bmwebm.org^
 ||bohemianpool.com^
+||bit2021.com^
 ||braiins.com^
 ||btcmill.cc^
+||debutech.de^
+||aod-tech.com^
 ||c3pool.org^
 ||catpool.io^
 ||ccmpool.ro^
@@ -126,6 +135,8 @@
 ||prohashing.com^
 ||qrlmining.com^
 ||redecoin.eu^
+||bowserlab.ddns.net^
+||luckydogpool.com^
 ||rwinfo.club^
 ||sbicrypto.com^
 ||semipool.com^
@@ -133,6 +144,7 @@
 ||smartcash.cc^
 ||solomining.io^
 ||soyminero.es^
+||crimsonfusion.org^
 ||spacepools.org^
 ||spiderpool.com^
 ||sumokoin.com^
@@ -150,8 +162,9 @@
 ||xmr.pt^
 ||xmrminingproxy.com^
 ||xmrpool.*^
-||xmrpool.net^
+||kupool.com^
 ||yourpool.uk^
+||nimiq.watch^
 ||zergpool.com^
 ||zet-tech.eu^
 ||zhash.pro^
@@ -165,12 +178,13 @@
 /\.[a-z]{2,4}\/jquerys.js$/$script
 /\/(js|lib)\/miners?(\.[a-z0-9]{3,8})?\.js/$script
 /\/(miners?|cryptonight.*)\/(worker(\.min)?|cn)\.js/$script,xmlhttprequest
-/\/(web)?x?m(i?n?e?)?r([a-z0-9-.]{3,6})?\.js/$script
 /\/cryptonight\-worker\.js/$script
 /\/crypt[ao](cpu)?\.js/$script
-/^https?:\/\/.*\/(\%?[235][a-fA-F3-6])?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case
+/^https?:\/\/.*\/(\%?[235][a-fA-F3-6])?[Ss](ervice)?[-_]?[Ww](orker)?[a-zA-Z0-9]?\.js(\?.*)?$/$script,xmlhttprequest,match-case,domain=~twitter.com|~youtube.com
 |http*:*/bitcoincore/?ref=$script,subdocument
 |http*:*/miner.js$script
 |http*:*/script_cry.js$script
+
+||uptostream.com/assets/coinsif.php$subdocument
 
 /^wss:\/\/(min(er?|ing)|pool[0-9]?|xmr|c(rypto|n))\..*\.[a-z]{3}:[0-9]{2,5}/$websocket

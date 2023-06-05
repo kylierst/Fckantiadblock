@@ -1,10 +1,11 @@
-! Title: Fuck Fuckadblock: Mining
+[Adblock Plus 3.1]
+! Title: Fuck Fuckadblock: Mining for Adblock Plus
 ! Description: Filters for blocking browser-based miners
 ! Author: Bogachenko Vyacheslav
 ! Expires: 3 days
-! Homepage: https://github.com/bogachenko/fuckfuckadblock
+! Homepage: https://github.com/kylierst/Fckantiadblock
 ! Licence: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md
-! RAW: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt
+! RAW: https://raw.githubusercontent.com/kylierst/Fckantiadblock/main/fckantiadblck-mining.txt
 ! CDN: https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists
 
 ||1pool.org^

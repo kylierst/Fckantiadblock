@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
 ! Title: Fuck Fuckadblock: Mining for Adblock Plus
 ! Description: Filters for blocking browser-based miners
-! Author: Bogachenko Vyacheslav
+! Author: kylierst
 ! Expires: 3 days
 ! Homepage: https://github.com/kylierst/Fckantiadblock
 ! Licence: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/LICENSE.md
